@@ -23,9 +23,9 @@ def roman_numeral_creator(num: int) -> str:
             while num >= value:
                 roman_result += key
                 num -= value
-    print(roman_result)
+    return roman_result
 
 
 
-roman_numeral_creator(test_case_one)
+print(roman_numeral_creator(test_case_one))
 
