@@ -162,6 +162,7 @@ cython_debug/
 
 # jetbrains
 .idea/
+.idea
 
 # Ruff stuff:
 .ruff_cache/
