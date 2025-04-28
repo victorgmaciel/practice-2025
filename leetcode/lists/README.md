@@ -1,7 +1,7 @@
-[## Lists in Python
+## Lists in Python
 
 
-](# Python Lists
+### Python Lists
 
 ## What is a List?
 A **list** is a built-in Python data structure that holds an **ordered**, **changeable** (mutable) collection of **items**.
