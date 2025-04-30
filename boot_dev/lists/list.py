@@ -79,4 +79,9 @@ check_character_levels()
 
 
 
+# Modulo operations
+
+
+
+
 
