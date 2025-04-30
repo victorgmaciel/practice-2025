@@ -81,7 +81,21 @@ check_character_levels()
 
 # Modulo operations
 
+# Finding odd numbers
+def get_odd_numbers(num):
+    odd_numbers = []
 
+    for i in range(0, num):
+        if i % 2 != 0:
+            odd_numbers.append(i)
 
+    return odd_numbers
+
+# Other ways to find odd numbers
+# if i % 2 != 0:  # remainder when divided by 2 is not 0
+# if i & 1:  # The least significant bit is 1 for odd numbers
+# if i / 2 != i // 2:  # True division vs floor division
+# if not (i % 2 == 0):  # Negation of even check
+# if i % 2 == 1:  # remainder when divided by 2 is exactly 1
 
 
